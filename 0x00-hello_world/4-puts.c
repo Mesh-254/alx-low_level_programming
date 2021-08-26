@@ -5,7 +5,7 @@
 /**
  *main -entry point
  *
- *return: always zero
+ *return:0
  */
 
 int main(void)
