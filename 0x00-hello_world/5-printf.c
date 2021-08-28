@@ -3,8 +3,7 @@
 /**
  * main: This is main function
  *
- * Description: This program uses printf to print text "with proper grammar, but the outcome is a piece of art,"
- *
+ * Description: This program uses printf to print text
  * return: 0
  */
 
