@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main:This is main function
+ * main:entry point
  *
  * Description:This program uses printf to print text
  *
