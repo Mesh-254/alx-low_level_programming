@@ -2,8 +2,10 @@
 #include <stdio.h>
 
 /**
- *Main: main function/Entry point
+ *Main: Entry point
+ *
  *Description: This program uses printf to print text
+ *
  *return: 0
  */
 
