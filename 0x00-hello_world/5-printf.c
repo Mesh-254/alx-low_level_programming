@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- *Main: Entry point
+ * Main: Entry point
  *
- *Description: This program uses printf to print text
+ * Description: This program uses printf to print text
  *
- *return: 0
+ * return: 0
  */
 
 int main(void)
