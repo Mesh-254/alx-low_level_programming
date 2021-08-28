@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
- * main: This is main function
+ * main:This is main function
  *
- * Description: This program uses printf to print text
- * return: 0
+ * Description:This program uses printf to print text
+ *
+ * Return: 0(success)
  */
 
 int main(void)
