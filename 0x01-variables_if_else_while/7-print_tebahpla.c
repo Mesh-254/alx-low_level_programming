@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- *main: main block
- *description:prints all single digitnumbers of base 10
- *return: 0
+ * main - main block
+ * description - prints all single digitnumbers of base 10
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -16,5 +16,4 @@ c--;
 }
 putchar('\n');
 return (0);
-    
 }
