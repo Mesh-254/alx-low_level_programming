@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
- *main: Entry block
- *
- *description: lowercase without q and e
- *return: 0
+ * main - entry block
+ * description - lowercase without q and e
+ * Return: Always 0 (Success)
  *
  */
 
