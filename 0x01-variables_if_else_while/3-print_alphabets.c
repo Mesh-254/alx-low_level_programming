@@ -2,10 +2,9 @@
 #include <stdlib.h>
 
 /**
- *main: main block
- *Description: Print alphabets in upper and lower cases
- *
- *Return: 0
+ * main - main block
+ * Description: Print alphabets in upper and lower cases
+ * Return: 0
  */
 int main(void)
 {
