@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- *main: entry point
- *description: printing all possible different combinations of two digits
- *return: 0
+ * main - entry point
+ * description: printing all possible different combinations of two digits
+ * Return: always 0 (success)
  */
 int main(void)
 {
@@ -16,7 +16,7 @@ while (d < 10)
 c = 0;
 while (c < 10)
 {
-if (d !=c && d < c)
+if (d != c && d < c)
 {
 putchar('0' + d);
 putchar('0' + c);
@@ -33,4 +33,3 @@ d++;
 putchar('\n');
 return (0);
 }
-	  
