@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 /**
- *main: main block
- *description: print possible combination 0-9
- *return: 0
+ * main - entry point
+ * description: print possible combination 0-9
+ * Return: always 0 (Success)
  */
 int main(void)
 {
 int i;
 
-for (i= '0'; i <= '9'; i++)
+for (i = '0'; i <= '9'; i++)
 {
 putchar(i);
 if (i == '9')
