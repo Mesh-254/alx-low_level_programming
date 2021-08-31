@@ -7,7 +7,6 @@
 int main(void)
 {
 char c[10] = "Holberton";
-printf("_putchar");
 int i = 0;
 while (i < 9)
 {
