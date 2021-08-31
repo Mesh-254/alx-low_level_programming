@@ -10,7 +10,7 @@ char c[10] = "Holberton\n";
 int i = 0;
 while (i < 9)
 {
-print _putchar(c[i]);
+_putchar(c[i]);
 i++;
 }
 _putchar('\n');
