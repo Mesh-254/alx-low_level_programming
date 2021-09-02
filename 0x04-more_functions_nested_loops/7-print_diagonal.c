@@ -16,6 +16,7 @@ for (surface = 1; surface < draw; surface++)
 _putchar(' ');
 _putchar('\\');
 _putchar('\n');
+
 }
 }
 else
