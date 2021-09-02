@@ -7,7 +7,6 @@ void print_diagonal(int n)
 {
 int draw;
 int surface;
-
 if (n > 0)
 {
 for (draw = 1; draw <= n; draw++)
