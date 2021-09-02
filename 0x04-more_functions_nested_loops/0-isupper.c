@@ -2,17 +2,13 @@
 /**
  * _isupper -  checks for uppercase character
  * @c: integer argument
- * Return: always (0) or (1)
+ * Return: if uppercase 1, o otherwise
  */
-
 int _isupper(int c)
 {
 if (c >= 'A' && c <= 'Z')
 {
 return (1);
 }
-else
-{
 return (0);
-}
 }
