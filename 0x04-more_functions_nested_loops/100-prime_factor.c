@@ -6,17 +6,14 @@
  */
 int main(void)
 {
-unsigned int long n = 612852475143, a = (int) sqrt(n);
-while (1)
+unsigned long int a, i;
+a = 612852475143;
+for (i = 3; i < (a / 2); i = i + 2)
 {
-if (n % a == 0)
-{
-printf("%lu \n", n / a);
-
-break;
+while ((a % i == 0) && (a != i))
+a = a / i;
 }
-a--;
-}
+printf("%lu\n", a);
 printf("\n");
 return (0);
 }
