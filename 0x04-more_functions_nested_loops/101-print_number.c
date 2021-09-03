@@ -5,13 +5,13 @@
  */
 void print_number(int n)
 {
-unsigned int x = n;
-if (n < 0)
+unsigned long int a, i;
+a = 612852475143;
+for (i = 3; i < (a / 2); i = i + 2)
 {
-_putchar('-');
-x = -x;
+while ((a % i == 0) && (a != i))
+a = a / i;
 }
-if ((x / 10) > 0)
-print_number(x / 10);
-_putchar(x % 10 + '0');
+printf("%lu\n", a);
+return (0);
 }
