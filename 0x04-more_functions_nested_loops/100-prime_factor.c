@@ -17,5 +17,6 @@ break;
 }
 a--;
 }
+printf("\n");
 return (0);
 }
