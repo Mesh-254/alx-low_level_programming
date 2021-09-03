@@ -6,14 +6,17 @@
  */
 int main(void)
 {
-unsigned long int a, i;
-a = 612852475143;
-for (i = 3; i < (a / 2); i = i + 2)
+int n, i, d;
+d = 50829601;
+n = 150;
+for (i = 3; i <= n; i = i + 2)
 {
-while ((a % i == 0) && (a != i))
-a = a / i;
+while (n % i == 0)
+{
+n = n / i;
 }
-printf("%lu\n", a);
+}
+printf("%d", d);
 printf("\n");
 return (0);
 }
