@@ -6,7 +6,7 @@
  */
 int _atoi(char *s)
 {
-  int sign = 1, resp = 0, firstNum, i;
+unsigned int sign = 1, resp = 0, firstNum, i;
 
 for (firstNum = 0; !(s[firstNum] >= 48 && s[firstNum] <= 57); firstNum++)
 {
