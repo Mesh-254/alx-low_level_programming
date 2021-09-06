@@ -17,7 +17,7 @@ sign *= -1;
 }
 for (i = firstNum; s[i] >= 48 && s[i] <= 57; i++)
 {
-resp *= 10;
+resp *= 0;
 resp += (s[i] - 48);
 }
 return (sign *resp);
