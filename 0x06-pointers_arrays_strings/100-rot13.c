@@ -2,23 +2,29 @@
 /**
  * *rot13 -  function that encodes a string using rot13.
  * @s: char type pointer
- * return: void
+ * Return: encoded string.
  */
 char *rot13(char *s)
 {
-int i, ii;
-char imput[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-char output[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
-for (i  = 0; s[i] != '\0'; i++)
+int a[53] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
+
+int b[53] = {'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k','l', 'm', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M'};
+
+int i, j;
+
+
+for (j  = 0; s[j] != '\0'; j++)
 {
-for (ii = 0; ii < 54; ii++)
+
+i = 0;
+while (a[i] != '\0' && s[j] != a[i]) /*loops thru rot13 array*/
+i++;
+
+if (s[j] == a[i]) /*if alphabet matches, index in array b*/
 {
-if (((s[i] <= 'z' && s[i] >= 'a') || (s[i] <= 'Z' && s[i] >= 'A')) && s[i] == input[ii])
-{
-s[i] = output[ii];
-break;
+s[j] = b[i];
 }
 }
-}
+return (s);
 }
