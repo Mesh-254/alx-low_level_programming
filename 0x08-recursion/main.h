@@ -14,5 +14,5 @@ int check(int a, int b);
 int is_palindrome(char *s);
 int check_palindrome(int i, int j, char *s);
 int _strlen_recursion(char *s);
-
+int wildcmp(char *s1, char *s2);
 #endif
