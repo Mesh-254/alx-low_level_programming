@@ -2,14 +2,20 @@
 /**
  * _sqrt_recursion -  returns the natural square root of a number.
  * @n: integer
- * Return: squareroot
+ * Return: squareroot or -1
  */
 int _sqrt_recursion(int n)
 {
-  if (n == 0)
-    return (0);
-  return (check(1, n));
+if (n == 0)
+return (0);
+return (check(1, n));
 }
+/**
+ * check - checks for the square root
+ * @a: integer
+ * @b: integer
+ * Return: int
+ */
 int check(int a, int b)
 {
 if (a * a > b)
