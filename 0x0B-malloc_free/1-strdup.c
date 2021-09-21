@@ -18,6 +18,6 @@ if (s == NULL)
 return (NULL);
 for (size = 0; str[size]; size++)
 s[size] = str[size];
-s[l] ='\0';
+s[l] = '\0';
 return (s);
 }
