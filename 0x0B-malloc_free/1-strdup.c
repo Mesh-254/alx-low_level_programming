@@ -17,5 +17,6 @@ if (s == NULL)
 return (NULL);
 for (size = 0; str[size]; size++)
 s[size] = str[size];
+s[size] ='\0';
 return (s);
 }
