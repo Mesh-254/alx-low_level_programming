@@ -1,4 +1,3 @@
-#include <stddef.h>
 #include "function_pointers.h"
 #include <stdio.h>
 /**
@@ -6,6 +5,7 @@
  * @name : string
  * @f: function
  * Return: void
+ *
  */
 void print_name(char *name, void (*f)(char *))
 {
