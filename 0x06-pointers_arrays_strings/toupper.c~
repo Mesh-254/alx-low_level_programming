@@ -1,0 +1,22 @@
+#include "main.h"
+
+char *string_toupper(char *str)
+{
+  int k;
+
+  for (k = 0; str[k] != '\0'; k++)
+    {
+  if (str[k] >= 'a' && str[k] <= 'z')
+    {
+      do
+	{
+	  k++;
+	str[k] =str[k] - 32;
+	
+      
+	}while (str[k] != '\0');
+    }
+
+}
+  return(str);
+}

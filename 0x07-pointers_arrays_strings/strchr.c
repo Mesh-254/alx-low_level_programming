@@ -1,0 +1,16 @@
+#include "main.h"
+#include <stddef.h>
+char *_strchr(char *s, char c)
+{
+  int k;
+  for(k = 0; s[k] != '\0'; k++)
+
+      if (*s == c)
+	{
+	  break;
+	}
+	return (s);
+
+
+
+}
